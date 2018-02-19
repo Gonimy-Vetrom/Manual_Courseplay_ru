@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<link rel="author" href="../../humans.txt" />
+	<link rel="stylesheet" href="../../res/css/reset.css">
+	<link rel="stylesheet" href="../../res/css/base.css">
+	<link rel="stylesheet" href="../../res/css/nav.css">
+	<link rel="stylesheet" href="../../res/css/faq.css">
+	<!--[if lte IE 7]><script src="../../res/js/lte-ie7.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>FAQ &rsaquo; Courseplay</title>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-38537916-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body class="no-js">
+<div id="container" class="contentContainer">
+	<div id="navContainer">
+		<nav id="navSidebar">
+			<div id="navHome"><a class="imgLink" href="../index.html"><img id="cpLogo" src="../../res/img/courseplayLogoDark.png" alt="Courseplay" /></a></div>
+			<hr />
+			<ul>
+				<li id="navInstallation">
+					<a href="../installation/index.html">
+						<span class="icon-installation"></span>
+						<span>Installation</span>
+					</a>
+				</li>
+				<li id="navManual">
+					<a href="../manual/index.html#intro">
+						<span class="icon-cog"></span>
+						<span>Anleitung</span>
+					</a>
+				</li>
+				<li id="navFAQ" class="active">
+					<a href="../faq/index.html">
+						<span class="icon-faq"></span>
+						<span>FAQ</span>
+					</a>
+				</li>
+				<li id="navChangelog">
+					<a href="../changelog/index.html">
+						<span class="icon-changelog"></span>
+						<span>Changelog</span>
+					</a>
+				</li>
+				<li id="navAuthors" class="last">
+					<a href="../authors/index.html">
+						<span class="icon-authors"></span>
+						<span>Autoren</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<!----------------------------------------------------------------------------------------------->
+
+	<main role="main" class="content">
+		<h1>Frequently Asked Questions</h1>
+
+		<hr />
+
+		<article id="bugReport" class="singleFaq">
+			<h2>Wie erstelle ich einen sexy Fehlerbericht?</h2>
+			<ol class="faqContent">
+				<li>Bugs und Vorschläge werden auf unserer <a href="https://github.com/Courseplay/courseplay/issues"><span class="icon-github4"></span> Issues</a>-Seite behandelt.</li>
+				<li>Update immer auf den neuesten Build und überprüfe ob das Problem damit wirklich auftritt bevor du den Fehler meldest.</li>
+				<li>Überprüfe ob das Problem von jemandem anderen berichtet wurde. Ist das der Fall, antworte in der bestehenden Issue anstatt eine neue zu erstellen.</li>
+				<li>Schreib auf Englisch. Wir haben Benutzer (und Entwickler) aus der ganzen Welt. Durch die gemeinsame Kommunikation auf Englisch können Probleme einfacher verstanden und gelöst werden.</li>
+				<li>Schreibe klar und beschreibend: benutze einen eindeutigen Titel, ohne einen ganzen Roman zu schreiben. Beschreibe die Situation im Textfeld so genau wie möglich. Nenne die benutzte Map und die benutzten Fahrzeuge und Mods.</li>
+				<li>Poste die komplette Log:
+					<ol>
+						<li>Du findest die Log in folgendem Ordner:
+							<ul>
+								<li>
+									<span class="emphasize1">Windows</span> <span class="emphasize2">(7 und höher)</span>:
+									<pre>C:\Users\<span class="emphasize3">[USER NAME]</span>\My Documents\My Games\FarmingSimulator2017\log.txt</pre>
+								</li>
+								<li>
+									<span class="emphasize1">Mac OS</span> <span class="emphasize2">(OS X Download/DVD/Steam-Version)</span>:
+									<pre>/Users/<span class="emphasize3">[USER NAME]</span>/Library/Application Support/FarmingSimulator2017/log.txt</pre>
+								</li>
+								<li>
+									<span class="emphasize1">Mac OS</span> <span class="emphasize2">(OS X 10.7 und höher)</span>:
+									<pre>/Users/<span class="emphasize3">[USER NAME]</span>/Library/Containers/com.focus-home.farmingsim2017/Data/Library/Application Support/FarmingSimulator2017/log.txt</pre>
+								</li>
+							</ul>
+						</li>
+						<li>Lade die Log hoch:<br />
+							Gehe zu <a href="https://gist.github.com/">Gist</a> oder <a href="http://pastebin.com/">Pastebin</a>, und füge dort die Log ein - per copy-and-paste oder durch drag-and-drop in das Textfeld <span class="emphasize2">(nur bei Gist)</span>.
+						</li>
+						<li>Poste den Link zur Log in der Issue.</li>
+					</ol>
+				</li>
+				<li>Nenne uns die benutzte Courseplay-Version. Du findest sie in der Log <span class="emphasize2">(### Courseplay: initialized 37/37 files (<span class="emphasize1">v5.01.0075</span>))</span>, oder im Spiel in der rechten unteren Ecke der Courseplay-Hud.</li>
+			</ol>
+		</article>
+
+		<article id="faqToolSupport" class="singleFaq">
+			<h2>Welche Tools werden von Courseplay unterstützt?</h2>
+			<div class="faqContent">
+				<p>Courseplay unterstützt alle Standard-Fahrzeuge und -Geräte, mit Ausnahme des <span class="emphasize2">Wassertrailers</span> und des <span class="emphasize2">Benzintrailers</span>. Wir unterstützen auch alle Mods die die Standardscripte benutzen.</p>
+				<p class="emphasize2"><span class="emphasize1">Hinweis:</span> Courseplay fällt nicht automatisch Bäume oder händelt die Stämme.</p>
+				<p>Zusätzlich unterstützen wir spezifisch folgende Mods <span class="emphasize2">(ab v5.01)</span>:</p>
+				<ul>
+					<!--li><span class="emphasize1">AutoCombine</span> von <span class="emphasize2">biedens</span></li-->
+					<li><span class="emphasize1">DriveControl</span> von <span class="emphasize2">upsidedown</span></li>
+					<!--li><span class="emphasize1">Overloader specialization für Überladewagen</span> von <span class="emphasize2">Satis</span></li-->
+				</ul>
+			</div>
+		</article>
+
+		<article id="faqOffset" class="singleFaq">
+			<h2>Wie funktioniert der Versatz? &mdash; a.k.a. wie lasse ich mehrere Fahrzeuge im Verbund fahren?</h2>
+			<div class="faqContent">
+				<p>Der <span class="emphasize1">seitliche Versatz</span> kann in zwei verschiedenen Situationen benutzt werden:</p>
+
+				<ol>
+					<li>Das Arbeitsgerät ist asymmetrisch, so dass man leicht seitlich versetzt (links oder rechts) zum Kurs fahren muss. Das ist z.B. beim Ballenladen oder einem Seitenmäher der Fall.</li>
+					<li>Man möchte mehrere Fahrzeuge nebeneinander einen Feldarbeitskurs abfahren lassen (um das Feld schneller zu bearbeiten).</li>
+				</ol>
+
+				<h3>Das asymmetrische Gerät (Gerät-Versatz)</h3>
+				<p>Berechne (oder schätze zumindest) den horizontalen Abstand zwischen dem Punkt des Arbeitsgerätes, der in der Kursmitte sein sollte, und der Mitte des Fahrzeuges. Diese Distanz wird der horizontale Versatz sein. Die Standard-Ballenlader (Arcusin), zum Beispiel, benötigt einen Versatz von etwa <span class="emphasize2">2,5</span> Meter nach <span class="emphasize2">links</span> (da der Greifer auf der <span class="emphasize2">rechten</span> Seite des Gerätes ist). Der Standard-Ursus-Ballenlader benötigt einen Versatz von etwa <span class="emphasize2">2,4</span> Meter nach <span class="emphasize2">links</span>.</p>
+
+
+				<h3>Der Verbund (Bahnversatz)</h3>
+				<p>Um mehrere Fahrzeuge im Verbund fahren zu lassen muss folgendes beachtet werden:</p>
+				<ol>
+					<li>Alle Fahrzeuge benutzen das gleiche Gerät, mit der gleichen Arbeitsbreite.</li>
+					<li>Starte nicht alle Fahrzeuge zugleich, sondern zeitlich versetzt; ansonsten werden sie sich früher oder später ineinander verkeilen.</li>
+					<li>Wenn die Arbeitsbreite des Gerätes keine Ganzzahl ist (<span class="emphasize2">6</span>, <span class="emphasize2">8</span>, <span class="emphasize2">12</span> usw.), sondern im Kommabereich liegt (z.B. <span class="emphasize2">7,5</span>, <span class="emphasize2">3,4</span>), sollte auf die nächste ganze Zahl abgerundet werden um den Versatz zu berechnen. Dies liegt an unserer Limitierung, dass der Versatz nur in <span class="emphasize2">0,5er</span>-Schritten eingestellt werden kann.</li>
+				</ol>
+
+				<p>Jedes Fahrzeug muss den selben generierten Kurs benutzen. Die Kursarbeitsbreite ist die Anzahl der Fahrzeuge multipliziert mit der Gerätearbeitsbreite. Werden zum Beispiel zwei 6m-Säer benutzt, muss die Kursarbeitsbreite <span class="emphasize2">12m</span> sein &ndash; nochmal: jedes Fahrzeug muss diesen 12m-<span class="emphasize1">(Gesamtarbeitsbreite)</span>-Kurs benutzen.</p>
+
+				<p>Um beim Säerbeispiel zu bleiben wird Fahrzeug #1 auf der <span class="emphasize2">linken</span> Seite des Kurses fahren, mit einem Versatz von <span class="emphasize1">-3 Meter</span>; Fahrzeug #2 wird auf der  <span class="emphasize2">rechten</span> Seite des Kurses mit einem Versatz von <span class="emphasize1">3 Meter</span> fahren.</p>
+
+				<h3>Regulärer vs. symmetrischer Bahnwechsel</h3>
+				<p>Es gibt zwei Methoden, die Bahnen der Geräte festzulegen: den <span class="emphasize1">regulären Bahnwechsel</span> und den <span class="emphasize1">symmetrischen Bahnwechsel</span>.</p>
+				<ul>
+					<li><span class="emphasize1">Regulärer Bahnwechsel</span>: während sie in der ersten Bahn nebeneinander fahren werden, sollte nicht vergessen werden ihre jeweilige Position, relativ zum Kurs, <span class="emphasize2">immer</span> links bzw. rechts ist. In der nächsten Bahn scheinen sie also ihre Positionen zu wechseln, doch in Wirklichkeit bleiben sie links bzw. rechts vom Kurs.</li>
+					<li><span class="emphasize1">Symmetrischer Bahnwechsel</span>: die Fahrzeuge werden effektiv eine Bahn für das nachfolgende Fahrzeug auslassen.</li>
+				</ul>
+
+				<figure id="laneChangeImage">
+					<img src="../../res/img/faq_laneChange_de.jpg" alt="Regulärer vs. symmetrischer Bahnwechsel" class="infoImg">
+					<figcaption>Regulärer vs. symmetrischer Bahnwechsel</figcaption>
+				</figure>
+
+				<noscript>Bitte aktiviere Javascript um die Bahnwechsel-Animation sehen zu können.</noscript>
+				<button id="playLaneOffsets" class="button">Play</button>
+				<span id="regularText" class="hidden">Regulärer Bahnwechsel</span>
+				<span id="symmetricText" class="hidden">Symmetrischer Bahnwechsel</span>
+				<div id="laneChangeStage"></div>
+
+				<h3>Bahnversatz-Berechnung</h3>
+				<p>Die Formel zur Berechnung des Versatzes lautet:</p>
+				<p>
+					<code>Anzahl</code> ist die Anzahl der Fahrzeuge im Verbund<br />
+					<code>Nummer</code> ist die Nummer des Fahrzeugs im Verbund (#1, #2, #3, &hellip;)<br />
+					<code>Arbeitsbreite</code> ist die Geräte-Arbeitsbreite eines einzelnen Gerätes (nicht die Gesamtarbeitsbreite)<br />
+					The Versatz für das jew. Gerät ist:
+					<pre>( Nummer - ( (Anzahl + 1) / 2 ) ) * Arbeitsbreite</pre>
+				</p>
+
+				<noscript>Bitte aktiviere Javascript um das Versatz-Berechnungs-Tool benutzen zu können.</noscript>
+
+
+				<p id="offsetCalculatorIntro">Wir haben zusätzlich noch ein Tool zur Berechnung des Versatzes für mehrere Geräte gebaut:</p>
+				<div id="offsetCalculator">
+					<div id="textElements">
+						<sub data-lang="de" data-text="courseWorkWidth">Gesamtarbeitsbreite</sub>
+						<sub data-lang="de" data-text="tool">Gerät</sub>
+						<sub data-lang="de" data-text="offset">Versatz</sub>
+					</div>
+
+					<form id="input">
+						<fieldset>
+							<label for="amount">Anzahl der Geräte</label>
+							<select name="amount" id="amount">
+								<option value="2" selected>2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+							</select>
+							<span id="amountText">2</span>
+							<span id="amountplus" class="icon-plus inline"></span>&nbsp;<span id="amountminus" class="icon-minus inline hidden"></span>
+						</fieldset>
+
+						<fieldset>
+							<label for="workWidth">Gerätarbeitsbreite</label>
+							<input id="workWidth" name="workWidth" type="number" min="1" step="0.5" value="6">
+						</fieldset>
+
+						<div class="clearfix"></div>
+					</form>
+
+					<button id="save" class="button">Als Bild speichern</button>
+					<div id="laneOffsetStage"></div>
+
+				</div>
+			</div>
+		</article>
+	</main>
+
+	<!----------------------------------------------------------------------------------------------->
+
+	<footer>
+		<div>&copy; Courseplay Dev Team, 2017</div>
+		<ul id="navFooter">
+			<li><a href="https://github.com/Courseplay/courseplay">GitHub</a></li>
+			<li><a href="https://www.pivotaltracker.com/projects/675867#">Bug Tracker</a></li>
+			<li><a href="https://github.com/Courseplay/courseplay/issues?sort=created&state=open">GitHub Issue Tracker</a></li>
+			<li><a href="../../en/faq/index.html">English version</a></li>
+			<li><a href="../../index.html">Home</a></li>
+		</ul>
+	</footer>
+</div> <!-- #container -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../../res/js/kinetic-v5.1.0.min.js"></script>
+<script src="../../res/js/faq.js"></script>
+
+</body>
+</html>

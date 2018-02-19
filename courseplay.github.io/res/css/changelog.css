@@ -1,0 +1,78 @@
+#changelog li { padding-bottom:0.5em; }
+/*.singleChangelog { border-top:1px solid #fcfcfc; border-bottom:1px solid #E0E0E0; padding:2em 0; }*/
+.singleChangelog:first-of-type { border-top:none; padding-top:0; }
+.singleChangelog:last-of-type { border-bottom:none; padding-bottom:0; }
+/*.singleChangelog.closed > ul { display:none; }*/ /* only via JS */
+
+body.js .singleChangelog h3 {
+	cursor:pointer;
+}
+body.js .singleChangelog h3:hover, body.js .singleChangelog h3:focus {
+	color: #FC0;
+}
+body.js .singleChangelog h3:active {
+	background-color:#FC0;
+	color:#333;
+}
+
+.singleChangelog .changelogContent.closed { display:none; }
+
+.singleChangelog ul { margin-left:0; padding-left:0; }
+.singleChangelog ul li { list-style-position:outside; margin-left:1.25em; }
+
+.singleChangelog > ul > li {
+	border-top:1px solid rgba(0,0,0,0.25);
+	list-style:none;
+	margin-left:0;
+	padding:0.5em 0 0.5em 2.5em;
+	position:relative;
+}
+.singleChangelog > ul:first-of-type > li:first-of-type { border-top:none;}
+.singleChangelog > ul > li:before {
+	border-radius:5em;
+	color:#F0F0F0;
+	cursor:default; 
+	display:block;
+	font-size:0.8em;
+	font-weight:500;
+	left:0;
+	line-height:1.8em;
+	padding:0;
+	position:absolute;
+	text-align:center;
+	top:0.7em;
+	height:1.8em;
+	width:1.8em;
+
+	font-family: 'courseplay';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	/* line-height: 1; */
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.changelogContent.change > li:before {
+	content:'\e647';
+	background-color:#FC0;
+	color:#333;
+}
+.changelogContent.fix > li:before {
+	content:'\e648';
+	background-color:#42C62C;
+}
+.changelogContent.new > li:before {
+	content:'\e61f';
+	background-color:#2C9dC6;
+}
+.changelogContent.bug > li:before {
+	content:'\e999';
+	background-color:#B82B0A;
+}
+
